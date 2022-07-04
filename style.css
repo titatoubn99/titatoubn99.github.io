@@ -1,8 +1,9 @@
-body {
+body, * {
     text-align: center;
 }
 
 #wrapper {
+    padding: 40px;
     background-color: #eee;
 }
 
@@ -19,21 +20,31 @@ body {
     text-decoration: none;
     border-radius: 50%;
 }
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: none;
+}
   
 /* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.7;
+    text-decoration: none;
 }
 
 /* Twitter */
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+    color: black;
 }
 /* Instagram */
 .fa-instagram {
-    background: rgb(236, 73, 70);
-    color: white;
+    color: black;
 }
   
 
